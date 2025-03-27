@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'sip_service.dart';
 
+void main() => runApp(MyApp());
+
 class MyApp extends StatefulWidget {
   @override
   _MyAppState createState() => _MyAppState();
